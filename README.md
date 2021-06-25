@@ -35,9 +35,7 @@ Copyright (c) 2021 Arthur Lee
 
 _Arthur Lee [meleearthur@gmail.com](meleearthur@gmail.com)_
 
-years need to be converted into days than multipied by the planet to get their planet age.
 
-Multiply the age by the planet age conversion and then times 365 to get your planet age
 ## Specs
 
 describe newAge()
@@ -50,6 +48,14 @@ Expected: ageInDays = 10950
 
 Test: newAge.averageAgeOnEarth should exists when passing in a 80
 Expected: newAge.averageAgeOnEart = 80
+
+describe mercury(), venus(), mars(), jupiter()
+Test: They all should caculate each age but with a different multiplier
+Expected: mercury() age.planetAge = 7
+          venus() age.planetAge = 18
+          mars() age.planetAge = 56
+          jupiter() age.planetAge = 355
+
 
 describe lifeExpectancy() 
 

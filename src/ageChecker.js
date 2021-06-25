@@ -21,7 +21,7 @@ export default class newAge {
 
   lifeExpectancy(){
     if (this.planetAge > 80) {
-      return this.expectedLife = this.planetAge - 80 +" Woah you lived past your life expectancy"
+      return this.expectedLife = this.planetAge - 80 + " Woah you lived past your life expectancy"
     }else
       return this.expectedLife = 80 - this.planetAge 
   }
