@@ -30,7 +30,7 @@ A calculator that shows you what age you would be on another planet!
 ## License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
-Copyright (c) 2020 Arthur Lee
+Copyright (c) 2021 Arthur Lee
 ## Contact Information
 
 _Arthur Lee [meleearthur@gmail.com](meleearthur@gmail.com)_
