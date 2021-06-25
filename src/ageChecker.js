@@ -5,15 +5,15 @@ export default class newAge {
     this.averageAgeOnEarth = 80;
   }
   mercury(){
-    return (this.age * 0.24)
+    return Math.trunc(this.age * 0.24)
   }
   venus(){
-    return (this.age * 0.62)
+    return Math.trunc(this.age * 0.62)
   }
   mars(){
-    return (this.age * 1.88)
+    return Math.trunc(this.age * 1.88)
   }
   jupiter(){
-    return (this.age * 11.86)
+    return Math.trunc(this.age * 11.86)
   }
 }
