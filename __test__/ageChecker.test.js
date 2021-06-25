@@ -18,7 +18,13 @@ describe("newAge",() => {
     test('Should return the medium age',  () => {
       expect(age.averageAgeOnEarth).toEqual(80);
     });
+
     test('Should return the persons age if they were on Mercury',  () => {
       expect(age.mercury()).toEqual(7.199999999999999);
     });
+
+    test('Should return the persons age if they were on Mercury',  () => {
+      expect(age.venus()).toEqual(18.6);
+    });
+    
 });
