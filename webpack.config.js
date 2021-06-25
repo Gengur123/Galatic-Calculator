@@ -18,7 +18,7 @@ module.exports = {
     new Dotenv(),
     new CleanWebpackPlugin(), // new line
     new HtmlWebpackPlugin({
-      title: 'Template',
+      title: 'calculator',
       template: './src/index.html',
       inject: 'body'
     })

@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "calulator",
   "version": "1.0.0",
   "description": "* _List all_\r * _the major technologies_\r * _you used in your project_\r * _here_",
   "main": "index.js",
@@ -11,10 +11,13 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["html","text"]
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
   },
   "keywords": [],
-  "author": "James Wyn",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -36,4 +39,12 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gengur123/Galatic-Calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gengur123/Galatic-Calculator/issues"
+  },
+  "homepage": "https://github.com/Gengur123/Galatic-Calculator#readme"
 }
