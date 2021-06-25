@@ -10,4 +10,7 @@ export default class newAge {
   venus(){
     return (this.age * 0.62)
   }
+  mars(){
+    return (this.age * 1.88)
+  }
 }

@@ -23,8 +23,11 @@ describe("newAge",() => {
       expect(age.mercury()).toEqual(7.199999999999999);
     });
 
-    test('Should return the persons age if they were on Mercury',  () => {
+    test('Should return the persons age if they were on Venus',  () => {
       expect(age.venus()).toEqual(18.6);
     });
-    
+
+    test('Should return the persons age if they were on Mars',  () => {
+      expect(age.mars()).toEqual(56.4);
+    });
 });
