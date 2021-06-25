@@ -48,3 +48,22 @@
 ## License
 
 ## Contact Information
+
+years need to be converted into days than multipied by the planet to get their planet age.
+
+Multiply the age by the planet age conversion and then times 365 to get your planet age
+## Specs
+
+describe newAge()
+
+Test: newAge.age should exists when passing in a 30
+Expected: newAge.age = 30
+
+Test: newAge.ageInDays should exists when passing in the age
+Expected: ageInDays = 10950
+
+Test: newAge.averageAgeOnEarth should exists when passing in a 80
+Expected: newAge.mediumAge = 80
+
+
+
