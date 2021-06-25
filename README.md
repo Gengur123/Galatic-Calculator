@@ -49,7 +49,13 @@ Test: newAge.ageInDays should exists when passing in the age
 Expected: ageInDays = 10950
 
 Test: newAge.averageAgeOnEarth should exists when passing in a 80
-Expected: newAge.mediumAge = 80
+Expected: newAge.averageAgeOnEart = 80
+
+describe lifeExpectancy() 
+
+Test: lifeExpectancy should calculate the persons age to see if they past their life expectancy on that planet
+Expected: this.planetAge(50) >>> expectedLife = 30
+Expected: this.planetAge(90) >>> expectedLife = 10
 
 
 
