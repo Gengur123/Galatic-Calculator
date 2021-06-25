@@ -30,4 +30,8 @@ describe("newAge",() => {
     test('Should return the persons age if they were on Mars',  () => {
       expect(age.mars()).toEqual(56.4);
     });
+
+    test('Should return the persons age if they were on Jupiter',  () => {
+      expect(age.jupiter()).toEqual(355.79999999999995);
+    });
 });

@@ -13,4 +13,7 @@ export default class newAge {
   mars(){
     return (this.age * 1.88)
   }
+  jupiter(){
+    return (this.age * 11.86)
+  }
 }
