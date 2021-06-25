@@ -1,53 +1,39 @@
-# (Blank Template)
+# (Galatic-Calculator)
 
-#### (Brief Description of Application)
 
-#### By (Your Name Here)
+#### By Arthur Lee
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _Javascript_
+* _Jest_
+* _JQuery_
+* _Visual Studio code_
+* _HTML_
 
 ## Description
+A calculator that shows you what age you would be on another planet!
 
 ## Setup/Installation Requirements
+* _Clone this repository to your desktop._
+* _Mavigate to the top level of the directory._
+* _Open file with a code editor_
+* _Run npm install in your terminal_
+* _Run npm run test to see what the program can do!._
 
-### Without Github template clone:
-* Clone Repo
-* Delete .git if needing a clean commit history
-* Initilize git
-* Add remote repository to new git
-* Make first commit only adding .gitignore to commit
-* Open new repo to begin npm initilization
 
-### With Github
-* Press use this template
-* Create new repo
-* Clone new repo down to
-* Open new repo to begin npm initilization
-
-### Npm Initilization
-* Verify package.json has correct npm packages for needs
-* Modify title on line 18 of webpack.config.js
-* Modify title on line 2 of package.json
-* Modify description on line 19 of package.json
-* Modify title on line 2 if package-lock.json
-* Run ```npm init -y```
-* Run ```npm install```
-* Verify install works by running ```npm run test``` and ```npm run build```
-
-* * *
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+
 
 ## License
 
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
+Copyright (c) 2020 Arthur Lee
 ## Contact Information
+
+_Arthur Lee [meleearthur@gmail.com](meleearthur@gmail.com)_
 
 years need to be converted into days than multipied by the planet to get their planet age.
 
