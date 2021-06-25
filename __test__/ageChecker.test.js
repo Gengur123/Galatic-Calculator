@@ -20,18 +20,22 @@ describe("newAge",() => {
     });
 
     test('Should return the persons age if they were on Mercury',  () => {
-      expect(age.mercury()).toEqual(7);
+      age.mercury();
+      expect(age.planetAge).toEqual(7);
     });
 
     test('Should return the persons age if they were on Venus',  () => {
-      expect(age.venus()).toEqual(18);
+      age.venus();
+      expect(age.planetAge).toEqual(18);
     });
 
     test('Should return the persons age if they were on Mars',  () => {
-      expect(age.mars()).toEqual(56);
+      age.mars();
+      expect(age.planetAge).toEqual(56);
     });
 
     test('Should return the persons age if they were on Jupiter',  () => {
-      expect(age.jupiter()).toEqual(355);
+      age.jupiter();
+      expect(age.planetAge).toEqual(355);
     });
 });
